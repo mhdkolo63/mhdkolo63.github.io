@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+
+<body>
+    <div class="header">
+        <h1 style="font-family: Algerian; text-align: center; margin-bottom: 50px; font-size: 80px; border-bottom: 10px solid sandybrown; color:#114b75;">babtee</h1>
+    
+    </div>
+ <button style="padding: 8px; cursor: pointer;">Click me</button>
+    <div class="container" id="gallery">
+        <div class="item" > <img src="img/10.jpg" alt=""></div> 
+        <div class="item"><img src="img/muh (1).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (10).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (11).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (12).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (13).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (14).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (7).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (16).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (6).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (18).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (19).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (2).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (20).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (21).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (22).jpg" alt=""></div>
+        <div class="item"><img src="img/ummi (1).jpg" alt=""></div>
+        <div class="item"><img src="img/ummi (2).jpg" alt=""></div>
+        <div class="item"><img src="img/ummi (3).jpg" alt=""></div>
+        <div class="item"><img src="img/ummi (4).jpg" alt=""></div>
+        <div class="item"><img src="img/ummi (5).jpg" alt=""></div>
+        <div class="item"><img src="img/ummi (6).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (23).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (24).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (25).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (26).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (27).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (28).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (29).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (3).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (30).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (31).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (32).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (33).jpg" alt=""></div>
+        <div class="item"><img src="img/muh (34).jpg" alt=""></div>
+        <div class="item"><img src="img/1.jpg" alt=""></div>
+        <div class="item"><img src="img/11.jpg" alt=""></div>
+        <div class="item"><img src="img/12.jpg" alt=""></div>
+        <div class="item"><img src="img/2.jpg" alt=""></div>
+        <div class="item"><img src="img/3.jpg" alt=""></div>
+        <div class="item"><img src="img/5.jpg" alt=""></div>
+        <div class="item"><img src="img/4.jpg" alt=""></div>
+        <div class="item"><img src="img/6.jpg" alt=""></div>
+        <div class="item"><img src="img/7.jpg" alt=""></div>
+        <div class="item"><img src="img/8.jpg" alt=""></div>
+        <div class="item"><img src="img/9.jpg" alt=""></div>
+        
+
+    </div>
+
+    
+   
+    
+</body>
+
+
+
+<script src="jquery.min.js"></script>
+
+<script >
+    $(document).ready(function(){
+        $('.container').show();
+        $('div.item').on('click', 
+            function(){
+                $('.item').removeClass('scale');    
+                $(this).addClass('scale');
+            }
+        )
+
+
+        $("button").click(function () {
+                $(".container").toggle();
+        });
+    });
+        
+</script>
+<script>
+    document.getElementsByClassName("cotainer").innerHTML = math,random();
+    </script>
+
+
+
+</html>
